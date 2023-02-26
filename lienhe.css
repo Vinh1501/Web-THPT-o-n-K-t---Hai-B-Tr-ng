@@ -1,0 +1,126 @@
+.menu{
+    width: 2000px;
+    margin: 0 auto;
+}
+.menu>header{
+    width: 100%;
+   height: 400px;
+    background-color:gray;
+    text-align: center;
+    margin-top: 0;
+}
+.menu>header>h2{
+    font-size: 100px;
+    position: relative;
+    top: 30px;
+    margin-top: 0px;
+}
+.menu>header>p{
+   font-size: 60px;
+}
+.menu>header>.search>#search{
+    width: 600px;
+    height: 70px;
+    margin-left: 900px;
+    margin-bottom: 5px;
+    position: relative;
+    top: 20px;
+    
+}
+.menu>header>.search>#search-button{
+    color: red;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    font-size: 50px;
+}
+.menu>.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(anhttt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+   
+    
+}
+
+.menu>nav{
+    width: 100%;
+    line-height: 100px;
+    background-color:orangered;
+    display: inline-block;
+    text-align: center;
+}
+.menu>nav>ul>li{
+    display: inline-block;
+    position: relative;
+} 
+.menu nav ul ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+
+}
+.menu nav ul ul a{
+    display: block;
+    color: black;
+    font-size: 60px;
+    text-decoration: none; 
+    line-height : 100px;;
+}
+.menu>nav>ul>li:hover>ul{
+    display: block;
+}
+.menu>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    font-size: 70px;
+    font-variant: small-caps;
+}
+
+.menu>nav>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul a:hover{ 
+    color: red;
+}
+
+.menu>article>ul>li{
+    height: 100px;
+    width: 100%;
+    font-size: 70px;
+    list-style: none;
+    padding: 70px;
+    
+}
+#maps{
+    background-image: url(google-maps.png);
+    background-repeat: no-repeat;
+    background-position: -1px;
+
+}
+#call{
+    background-image: url(phone-call\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: -5px;
+}
+#mail{
+    background-image: url(gmail\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: -5px;
+}
+.menu>footer{
+    width: 100%;
+    line-height: 200px;
+    background-color: gray;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 50px;
+} 

@@ -1,0 +1,194 @@
+.menu{
+    width: 2000px;
+    margin: 0 auto;
+}
+.menu>header{
+    width: 100%;
+   height: 400px;
+    background-color:gray;
+    text-align: center;
+    margin-top: 0;
+}
+.menu>header>h2{
+    font-size: 100px;
+    position: relative;
+    top: 30px;
+    margin-top: 0px;
+}
+.menu>header>p{
+   font-size: 60px;
+}
+.menu>header>.search>#search{
+    width: 600px;
+    height: 70px;
+    margin-left: 900px;
+    margin-bottom: 5px;
+    position: relative;
+    top: 20px;
+    
+}
+.menu>header>.search>#search-button{
+    color: red;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    font-size: 50px;
+}
+.menu>.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(anhttt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+   
+    
+}
+
+.menu>nav{
+    width: 100%;
+    line-height: 100px;
+    background-color:orangered;
+    display: inline-block;
+    text-align: center;
+}
+.menu>nav>ul>li{
+    display: inline-block;
+    position: relative;
+} 
+.menu nav ul ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+
+}
+.menu nav ul ul a{
+    display: block;
+    color: black;
+    font-size: 60px;
+    text-decoration: none; 
+    line-height : 100px;;
+}
+.menu>nav>ul>li:hover>ul{
+    display: block;
+}
+.menu>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    font-size: 70px;
+    font-variant: small-caps;
+}
+
+.menu>nav>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul a:hover{ 
+    color: red;
+}
+
+.menu>.content{
+    width: 100%;
+    height: 1900px;
+ 
+}
+.menu>.content>.box1{
+    width: 100%;
+    height: 900px;
+}
+.menu>.content>.box1>.k1{
+    width: 70%;
+    height: 900px;
+    box-shadow: 0 0 5px black;
+    margin-left: 2px;
+   position: relative;
+   float: left;
+   text-align: center;
+
+}
+h2{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.menu>.content>.box1>.k1>img{
+    width: 500px;
+    margin-left: 20px;
+    border-radius: 30px;
+    float: left;
+    margin: 0 30px;
+    margin-top: 200px;
+}
+.menu>.content>.box1>.k1>p{
+    font-size: 50px;
+    margin-top: 200px;
+   
+}
+.menu>.content>.box1>.k2{
+   width: 25%;
+   height: 900px;
+   box-shadow: 0 0 5px black;
+   float: right;
+   
+   text-align: center;
+}
+.menu>.content>.box1>.k2>p{
+    font-size: 35px;
+}
+.menu>.content>.box1>.k2>img{
+    width: 35%;
+}   
+.menu>.content>.box2{
+    width: 100%;
+    height: 800px;
+    
+}
+.menu>.content>.box2>.k3{
+    width: 70%;
+    height: 750px;
+    box-shadow: 0 0 5px black ;
+    float: left;
+}
+.menu>.content>.box2>.k3>img{
+    height: 600px;
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-radius: 40px;
+    float: left;
+}
+.menu>.content>.box2>.k3>p{
+text-align: center;
+font-size: 40px;
+position: relative;
+top: 5px;
+
+}
+.menu>.content>.box2>.k4{
+    width: 25%;
+    height: 750px;
+    box-shadow: 0 0 5px black;
+    float: right;
+    text-align: center;
+    
+}
+.menu>.content>.box2>.k4>p{
+    font-size: 40px;
+}
+.menu>.content>.box2>.k4>img{
+    width: 50%;
+}
+
+.menu>footer{
+    width: 100%;
+    line-height: 200px;
+    background-color: gray;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 50px;
+} 
+
